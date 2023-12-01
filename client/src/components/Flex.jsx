@@ -110,8 +110,15 @@ const Flex = () => {
 
 
             <div className="flex items-center justify-center pb-12 pt-9 bg-black">
-                <button className="bg-black hover:bg-white border hover:text-black border-gray-300 text-white py-2 px-4 rounded-2xl">
+                <button className="bg-black hover:bg-white border hover:text-black border-gray-300 text-white py-2 px-4 rounded-full">
                     Load More
+                </button>
+            </div>
+
+            <div className="bg-black text-white p-10 text-center">
+                <h1 className="text-4xl mb-6">Everything you need to make anything you want</h1>
+                <button className="bg-gray-500 text-white px-8 py-3 rounded-full hover:bg-gray-800 focus:outline-none">
+                    Try Runway for Free
                 </button>
             </div>
 
