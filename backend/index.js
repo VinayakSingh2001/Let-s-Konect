@@ -1,2 +1,0 @@
-require("./socketServer");
-require("./expressRoutes");
